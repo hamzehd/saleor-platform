@@ -23,7 +23,7 @@ services:
     environment:
       - JAEGER_AGENT_HOST=jaeger
       - DASHBOARD_URL=http://3.99.76.208:9000/
-      - ALLOWED_HOSTS=localhost,api,3.99.76.208
+      - ALLOWED_HOSTS=localhost,api,3.99.76.208,ecocomfort-commerce.vercel.app
 
   dashboard:
     image: ghcr.io/saleor/saleor-dashboard:latest
