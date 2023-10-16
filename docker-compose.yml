@@ -29,6 +29,8 @@ services:
     image: ghcr.io/saleor/saleor-dashboard:latest
     ports:
       - 9000:80
+    environment:
+      - API_URL=http://3.99.76.208:8000/graphql/
     restart: unless-stopped
 
   db:
