@@ -30,7 +30,7 @@ services:
   dashboard:
     image: ghcr.io/saleor/saleor-dashboard:latest
     ports:
-      - 9000:80
+      - 9000:90
     environment:
       - API_URL=http://3.99.76.208:8000/graphql/
       - PUBLIC_URL=http://3.99.76.208:8000/
